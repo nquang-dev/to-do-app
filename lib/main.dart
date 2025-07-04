@@ -20,9 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: ThemeData(primarySwatch: Colors.yellow, useMaterial3: false,),
-      
-      
+      theme: ThemeData(primarySwatch: Colors.green, useMaterial3: false),
     );
   }
 }
